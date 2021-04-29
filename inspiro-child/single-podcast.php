@@ -1,6 +1,6 @@
 <?php
 
-//The template for displaying front page
+//The template for displaying single podcast
 
 
 get_header();
