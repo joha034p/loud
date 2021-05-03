@@ -7,20 +7,12 @@ Version: 1.0.8
 Description: Inspiro Child Theme
 */
 
-#primary {
-    max-width: calc(950px + 400px);
-}
-
 .podcastcontainer article {
     cursor: pointer;
 }
 
 .elementor-widget-wrap img {
     cursor: pointer;
-}
-
-#main {
-    padding-top: 100px;
 }
 
 .site-title {
@@ -43,46 +35,65 @@ Description: Inspiro Child Theme
 
 .podcastcontainer {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-    grid-gap: 50px;
-    margin: 0 auto;
-    padding: 10px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(275px, 1fr));
+}
+
+#primary {
+    max-width: none !important;
+}
+
+main button {
+    flex-grow: 1;
 }
 
 #filtrering {
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
-.txt_container h2 {
-    color: white;
+.txt_container {
+    display: none;
+    color: black;
+    top: 0;
+    left: 0;
+    padding: 10px;
+}
+
+.txt_container h2{
+    font-size: 1.3rem;
+}
+
+.txt_container .kortbeskrivelser {
+    font-size: 0.8rem;
 }
 
 .article_container {
     position: relative;
+    flex-basis: 23%;
 }
 
-.txt_container {
-    width: 100%;
-    height: 98.5%;
+.article_container:hover  {
+    cursor: pointer;
+}
+
+.article_container:hover img {
+    opacity: 0.1;
+    filter: grayscale(100%);
+}
+
+.article_container:hover .txt_container {
+    display: block;
     position: absolute;
-    transition: .7s;
-    bottom: 5px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.9);
-    opacity: 0;
-    margin: 30px;
-    display: grid;
-    align-items: center;
-    margin: auto;
-    overflow: hidden;
-    padding-left: 20px;
-    padding-right: 20px;
+    word-break: break-word;
 }
 
-.txt_container:hover {
-    opacity: 1;
+.podcast_image {
+    max-width: none;
+    width: 100%;
 }
 
 .podcastcontainer .beskrivelse,
@@ -128,24 +139,6 @@ Description: Inspiro Child Theme
 
 .episoder_article_container {
     position: relative;
-}
-
-.episoder_txt_container {
-    width: 100%;
-    height: 98.5%;
-    position: absolute;
-    bottom: 5px;
-    transition: .7s;
-    color: white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 30px;
-    z-index: 100;
-    margin: auto;
-    cursor: pointer;
 }
 
 .episodeOverskrift {

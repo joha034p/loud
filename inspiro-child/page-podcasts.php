@@ -6,23 +6,22 @@
 get_header();
 ?>
 
-<template>
-    <article>
-        <div class="article_container">
-            <img src="" alt="">
-            <div class="txt_container">
-                <h2></h2>
-                <p class="kortbeskrivelse"></p>
-                <p class="antal_episoder"></p>
-            </div>
-        </div>
-    </article>
-</template>
 
 <section id="primary" class="content-area">
-    <main id="main" class="site-main">
+    <main id="main" class="site-main inner-wrap">
         <nav id="filtrering"><button data-podcast="alle">Alle</button></nav>
         <section class="podcastcontainer"></section>
+
+        <template>
+            <div class="article_container">
+                <img class="podcast_image" src="" alt="">
+                <div class="txt_container">
+                    <h2></h2>
+                    <p class="kortbeskrivelse"></p>
+                    <p class="antal_episoder"></p>
+                </div>
+            </div>
+        </template>
     </main>
 
     <script>
@@ -74,7 +73,7 @@ get_header();
                     klon.querySelector("img").src = podcast.billede.guid;
                     klon.querySelector(".kortbeskrivelse").textContent = podcast.kortbeskrivelse;
                     klon.querySelector(".antal_episoder").textContent = podcast.antalepisoder;
-                    klon.querySelector("article").addEventListener("click", () => {
+                    klon.querySelector(".article_container").addEventListener("click", () => {
                         location.href = podcast.link;
                     })
                     container.appendChild(klon);
