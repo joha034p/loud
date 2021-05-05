@@ -9,6 +9,10 @@ get_header();
 
 <section id="primary" class="content-area">
     <main id="main" class="site-main inner-wrap">
+        <div class="titelWrap">
+            <h2 class="podcastTitel">Podcasts</h2>
+            <p>Find vores mange programmer, udsendelser, serier, afsnit og episoder her.</p>
+        </div>
         <nav id="filtrering"><button data-podcast="alle">Alle</button></nav>
         <section class="podcastcontainer"></section>
 
@@ -18,7 +22,7 @@ get_header();
                 <div class="txt_container">
                     <h2></h2>
                     <p class="kortbeskrivelse"></p>
-                    <p class="antal_episoder">Episoder: </p>
+                    <p class="antal_episoder"><b>Episoder:</b> </p>
                 </div>
             </div>
         </template>

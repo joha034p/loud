@@ -7,6 +7,16 @@ Version: 1.0.8
 Description: Inspiro Child Theme
 */
 
+
+
+.titelWrap {
+    text-align: center;
+}
+
+.podcastTitel {
+    font-size: 4rem;
+}
+
 .podcastcontainer article {
     cursor: pointer;
 }
@@ -17,6 +27,10 @@ Description: Inspiro Child Theme
 
 .site-title {
     text-shadow: 2px 2px 0px red;
+}
+
+#post-138 > header > div > h1 {
+    padding-top: 100px;
 }
 
 .custom-logo {
@@ -48,7 +62,8 @@ main button {
 }
 
 #filtrering {
-    margin-bottom: 20px;
+    padding-bottom: 70px;
+    padding-top: 70px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -76,12 +91,20 @@ main button {
     flex-basis: 23%;
 }
 
+.article_container .txt_container {
+    transition: .5s;
+}
+
+.article_container img {
+    transition: .5s;
+}
+
 .article_container:hover {
     cursor: pointer;
 }
 
 .article_container:hover img {
-    opacity: 0.1;
+    opacity: 0.2;
     filter: grayscale(100%);
 }
 
@@ -135,6 +158,10 @@ main button {
 .episodePic {
     position: relative;
     filter: brightness(.35);
+    transition: .5s
+}
+
+.episoder_article_container:hover > .episodePic {
     opacity: 80%;
 }
 
@@ -142,16 +169,12 @@ main button {
     background-color: red;
 }
 
-episoder_article_container:nth-child(even):hover {
-    background-color: yellow;
-}
-
 .episoder_article_container {
     position: relative;
     cursor: pointer;
     width: 280px;
     height: 279px;
-    transition: .7s;
+    transition: .5s;
 }
 
 .episoder_txt_container {
@@ -233,9 +256,26 @@ episoder_article_container:nth-child(even):hover {
 
 
 
+#post-14 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8829ddd.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div > a {
+    text-decoration: none;
+}
 
+#post-138 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-74a05ed.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div > a {
+    text-decoration: none;
+}
 
+#recent-posts-2 > ul > li > a {
+    color: #d9534f;
+}
 
+#search-2 > form > button {
+    color: #fff;
+    border: 2px solid #d9534f;
+}
+
+#post-14 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8f8d48e.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > img {
+    cursor: auto;
+}
 
 
 
