@@ -24,7 +24,7 @@
 					<div class="column-header">
 						Hent appen
 					</div>
-					<ul>
+					<ul class="first-col">
 						<li>
 							<a href="https://apps.apple.com/dk/app/radio-loud/id1498746367">
 								<img src="<?php echo get_stylesheet_directory_uri() ?>/assets/app-store.svg" />
@@ -53,7 +53,17 @@
 					<ul>
 						<li><a href="/loud/loud-live">LOUD LIVE</a></li>
 						<li><a href="/loud/om-radio-loud/">Hvem er vi</a></li>
-
+						<li class="social-wrapper">
+							<a href="https://www.facebook.com/radiolouddanmark/">
+								<img class="social_fb" src="<?php echo get_stylesheet_directory_uri() ?>/assets/fbIcon.svg" />
+									</a>
+							<a href="https://twitter.com/radioloud_dk?lang=da">
+								<img class="social_twitter" src="<?php echo get_stylesheet_directory_uri() ?>/assets/twitter.svg" />
+									</a>
+							<a href="https://twitter.com/radioloud_dk?lang=da">
+								<img class="social_ig" src="<?php echo get_stylesheet_directory_uri() ?>/assets/ig.svg" />
+									</a>
+						</li>
 					</ul>
 				</div>
 				<div>
@@ -110,13 +120,22 @@
 .footer-wrapper ul a {
 	color: white;
 }
-.footer-wrapper ul img {
+.footer-wrapper ul.first-col img {
 	width: 128px;
 }
 
 .smuktekst {
 	color: white;
 }
+.social-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 50%;
+}
+.social-wrapper a {
+	flex-basis: 25%;
+}
+
 
 </style>
 
