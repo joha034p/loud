@@ -11,11 +11,12 @@ get_header();
         <article>
             <div class="epiContainer">
                 <img class="pic" src="" alt="">
-                <div>
+                <div class="txtcontainer">
                     <h2></h2>
                     <p class="beskrivelse"></p>
                     <p class="varighed"></p>
                     <p class="udgivelsesdato"></p>
+                    <button>Afspil</button>
                 </div>
             </div>
         </article>
