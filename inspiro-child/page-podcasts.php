@@ -20,7 +20,7 @@ get_header();
             <div class="article_container">
                 <img class="podcast_image" src="" alt="">
                 <div class="txt_container">
-                    <h2></h2>
+                    <h2 class="podcastTitles"></h2>
                     <p class="kortbeskrivelse"></p>
                     <p class="antal_episoder"><b>Episoder:</b> </p>
                 </div>

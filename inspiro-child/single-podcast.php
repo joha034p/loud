@@ -19,6 +19,7 @@ get_header();
                 </div>
             </div>
         </article>
+        <h2 class="episodertxt">Episoder</h2>
 
         <section id="episoder">
             <template>

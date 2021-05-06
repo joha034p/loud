@@ -9,6 +9,20 @@ Description: Inspiro Child Theme
 
 
 
+
+.filter:focus {
+    background-color: #db093b;
+    color: white;
+}
+
+#recent-posts-2 > ul > li > a:hover {
+    color: yellow;
+}
+
+#recent-comments-2 > h3 {
+    display: none;
+}
+
 .titelWrap {
     text-align: center;
 }
@@ -26,7 +40,9 @@ Description: Inspiro Child Theme
 }
 
 .site-title {
-    text-shadow: 2px 2px 0px red;
+    text-shadow: 11px 11px 0px #db0c3a;
+    font-size: 13rem;
+    font-weight: 600;
 }
 
 #post-138 > header > div > h1 {
@@ -103,10 +119,38 @@ main button {
     cursor: pointer;
 }
 
-.article_container:hover img {
-    opacity: 0.2;
-    filter: grayscale(100%);
+
+/*podcast billede hover*/
+.article_container .txt_container,
+.podcastTitles {
+    color: white;
 }
+
+.podcastTitles {
+    font-weight: 600;
+}
+
+.article_container:hover > .podcast_image {
+    opacity: 50%;
+}
+
+.article_container:hover {
+    background-color: red;
+}
+
+.article_container {
+    position: relative;
+    cursor: pointer;
+    width: 280px;
+    height: 279px;
+    transition: .5s;
+}
+
+
+
+
+
+
 
 .article_container:hover .txt_container {
     display: block;
@@ -134,7 +178,12 @@ main button {
     grid-template-columns: 1fr 1fr;
     grid-gap: 60px;
     padding-bottom: 150px;
-    margin: 30px;
+    margin: 0 170px 0 170px;
+}
+
+.episodertxt {
+    text-align: center;
+    padding-bottom: 30px;
 }
 
 
