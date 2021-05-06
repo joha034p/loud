@@ -304,7 +304,7 @@ main button {
 
 
 
-
+/*små rettelser*/
 #post-14 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-8829ddd.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > div > a {
     text-decoration: none;
 }
@@ -326,7 +326,21 @@ main button {
     cursor: auto;
 }
 
+#post-16 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-eee8d58.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > p:nth-child(3) > a {
+    color: #db093b;
+}
 
+#post-16 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-eee8d58.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > p:nth-child(7) > a:nth-child(1) {
+    color: #db093b;
+}
+
+#post-16 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-eee8d58.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > p:nth-child(7) > a:nth-child(2) {
+    color: #db093b;
+}
+
+#post-16 > div > div > div > section.elementor-section.elementor-top-section.elementor-element.elementor-element-eee8d58.elementor-section-boxed.elementor-section-height-default.elementor-section-height-default > div > div > div > div > div > p:nth-child(9) > a {
+    color: #db093b;
+}
 
 
 
